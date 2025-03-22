@@ -10,7 +10,7 @@ def ask_query(query: str) -> str:
         response = requests.get(url)
 
         if response.status_code == 200:
-            return response.json().get("data", "Aaru couldn't find an answer 😔.")
+            return response.json().get("data", "Kate couldn't find an answer 😔.")
 
     except Exception as e:
         return f"❖ Kate got an error: {str(e)}. Contact @Unknown_RK01."
@@ -24,7 +24,7 @@ async def send_typing_action(client: Client, chat_id: int, duration: int = 2):
 @app.on_message(filters.command("ask"))
 async def handle_query(client: Client, message):
     if len(message.command) < 2:
-        await message.reply_text("💡 Ask Aaru anything, I'm here to help.")
+        await message.reply_text("💡 Ask Kate anything, I'm here to help.")
         return
 
     user_query = message.text.split(" ", 1)[1]
