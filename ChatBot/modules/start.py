@@ -128,7 +128,7 @@ Stay sharp, stay awesome. ✨
                     reply_markup=InlineKeyboardMarkup([
                         [
                             InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="start"),
-                            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/C0DE_SEARCH")
+                            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/BotVerseRavi")
                         ]
                     ])
                 )
