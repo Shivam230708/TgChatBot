@@ -72,7 +72,7 @@ async def help(client, m: Message):
     await m.reply(
         "Need help? Click below to see all my commands.",
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("📜 ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ɢᴜɪᴅᴇ", url="http://t.me/KatexChatxBot?start=help")]
+            [InlineKeyboardButton("📜 ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ɢᴜɪᴅᴇ", url="http://t.me/LanaxChatxBot?start=help")]
         ])
     )
 
@@ -96,7 +96,7 @@ I'm here to chat, vibe, and bring some fun to your day.
                 await query.message.edit_text(
                     new_text,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url="https://t.me/MissAaru_Robot?startgroup=true")],
+                        [InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url="https://t.me/LanaxChatxBot?startgroup=true")],
                         [
                             InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/BotVerseRavi"),
                             InlineKeyboardButton(text="Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Unknown_RK01")
@@ -114,7 +114,7 @@ I'm here to chat, vibe, and bring some fun to your day.
 ⬤ /ping ➥ Check if I'm online.  
 ⬤ /stats ➥ Get chat stats.  
 ⬤ /chatbot ➥ Toggle AI replies (only works in groups). 
-⬤ /ask ➥ Provide me with a query to ask Aaru AI. 💖
+⬤ /ask ➥ Provide me with a query to ask Lana AI. 💖
 ⬤ /kiss ➥ Get a virtual kiss from me. 😘  
 ⬤ /hug ➥ Let me wrap you in a warm hug. 🤗 
 ⬤ /waifu ➥ Want a cute waifu image? Just drop a tag, and I'll fetch one for you. 💕
